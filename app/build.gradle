@@ -8,7 +8,7 @@ android {
     defaultConfig {
         applicationId "ru.kkuzmichev.simpleappforespresso"
         minSdk 21
-        targetSdk 31
+        targetSdk 28
         versionCode 1
         versionName "1.0"
 
@@ -50,4 +50,7 @@ dependencies {
 
     androidTestImplementation 'androidx.test.espresso:espresso-intents:3.4.0'
     testImplementation 'com.android.support.test:runner:1.0.2'
+
+    androidTestImplementation 'io.qameta.allure:allure-kotlin-android:2.0.0'
+    implementation 'androidx.test.uiautomator:uiautomator:2.2.0'
 }
